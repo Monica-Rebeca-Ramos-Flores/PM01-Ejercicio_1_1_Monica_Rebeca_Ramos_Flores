@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 		Multiplicacion = (Button) findViewById(R.id.btnMultiplicacion);
     }
 
+	// Metodo para encontrar la suma de los numeros
 	public void Sumar(View view){
 		int n1 = Integer.parseInt(num1.getText().toString());
 		int n2 = Integer.parseInt(num2.getText().toString());
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 		result(Suma);
 	}
 
+	// Metodo para encontrar la resta de los numeros
 	public void Restar(View view){
 		int n1 = Integer.parseInt(num1.getText().toString());
 		int n2 = Integer.parseInt(num2.getText().toString());
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 		result(Resta);
 	}
 
+	// Metodo para encontrar la division de los numeros
 	public void Dividir(View view){
 		int n1 = Integer.parseInt(num1.getText().toString());
 		int n2 = Integer.parseInt(num2.getText().toString());
@@ -52,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 		result(Division);
 	}
 
+	// Metodo para encontrar la multiplicacion de los numeros
 	public void Multiplicar(View view){
 		int n1 = Integer.parseInt(num1.getText().toString());
 		int n2 = Integer.parseInt(num2.getText().toString());

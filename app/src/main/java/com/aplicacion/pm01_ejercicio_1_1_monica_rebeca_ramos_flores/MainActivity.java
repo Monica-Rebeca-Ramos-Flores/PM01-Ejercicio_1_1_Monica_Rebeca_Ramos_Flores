@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 		result(Multiplicacion);
 	}
 
+	// Metodo para encontrar el resultado de cada uno de las operaciones matematicas
 	private void result(Integer valor) {
 		Intent i = new Intent(this, MainActivity2.class);
 		i.putExtra("dato", valor);

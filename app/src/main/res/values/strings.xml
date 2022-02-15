@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PM01-Ejercicio_1_1_Monica_Rebeca_Ramos_Flores</string>
+	<string name="lblPrimero">Numero 1</string>
+	<string name="lblSegundo">Numero 2</string>
+	<string name="txtRespuesta">Resultado</string>
+	<string name="btnRegresar">Regresar</string>
+	<string name="txtPrimero">Primero</string>
+	<string name="txtSegundo">Segundo</string>
+	<string name="btnSuma">Suma</string>
+	<string name="btnResta">Resta</string>
+	<string name="btnDivision">Division</string>
+	<string name="btnMultiplicacion">Multiplicacion</string>
+</resources>
